@@ -1,0 +1,58 @@
+[
+    {
+        "id": 0,
+        "Product Name": "Hoodie 1",
+        "color": "Cloud Dancer",
+        "HTML_color_code": "#F0EEE9",
+        "Price": 602,
+        "file": "sleeve_arm_updateCOLOR_garnent_Cloud_Dancer_Garment_front.png"
+    },
+    {
+        "id": 1,
+        "Product Name": "Hoodie 1",
+        "color": "High Risk Red",
+        "HTML_color_code": "#C71F2D",
+        "Price": 602,
+        "file": "sleeve_arm_updateCOLOR_garnent_High_Risk_Red_Garment_front.png"
+    },
+    {
+        "id": 2,
+        "Product Name": "Hoodie 1",
+        "color": "Jet Black",
+        "HTML_color_code": "#2D2C2F",
+        "Price": 602,
+        "file": "sleeve_arm_updateCOLOR_garnent_Jet_Black_Garment_front.png"
+    },
+    {
+        "id": 3,
+        "Product Name": "Hoodie 1",
+        "color": "Latte",
+        "HTML_color_code": "#C5A582",
+        "Price": 602,
+        "file": "sleeve_arm_updateCOLOR_garnent_Latte_Garment_front.png"
+    },
+    {
+        "id": 4,
+        "Product Name": "Hoodie 1",
+        "color": "Misty Rose",
+        "HTML_color_code": "#CAA39A",
+        "Price": 602,
+        "file": "sleeve_arm_updateCOLOR_garnent_Misty_Rose_Garment_front.png"
+    },
+    {
+        "id": 5,
+        "Product Name": "Hoodie 1",
+        "color": "Sage",
+        "HTML_color_code": "#8C8A7E",
+        "Price": 602,
+        "file": "sleeve_arm_updateCOLOR_garnent_Sage_Garment_front.png"
+    },
+    {
+        "id": 6,
+        "Product Name": "Hoodie 1",
+        "color": "Tawny Port",
+        "HTML_color_code": "#5C2C35",
+        "Price": 602,
+        "file": "sleeve_arm_updateCOLOR_garnent_Tawny_Port_Garment_front.png"
+    }
+]

@@ -1,0 +1,1448 @@
+@import '~bootstrap/dist/css/bootstrap.min.css';
+
+@font-face {
+  font-family: "TT Norms";
+  src: local("TT Norms"),
+  url("../Asset/fonts/TT-Norms/TTNorms-Regular.otf") format("truetype");
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "TT Norms Bold";
+  src: local("TT Norms Bold"),
+  url("../Asset/fonts/TT-Norms/TTNorms-Bold.otf") format("truetype");
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: "Quicksand";
+  src: local("Quicksand"),
+  url("../Asset/fonts/Quicksand/Quicksand-Regular.ttf") format("truetype");
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "QuicksandBold";
+  src: local("QuicksandBold"),
+  url("../Asset/fonts/Quicksand/Quicksand-Bold.ttf") format("truetype");
+  font-weight: bold;
+}
+
+body{
+  min-width: 1024px;
+}
+
+.font.thick{
+    font-weight: bold;
+}
+
+.font-18{
+  font-size: 18px;
+}
+
+.font-24{
+  font-size: 24px;
+}
+
+.font-30{
+  font-size: 30px;
+}
+
+.font-36{
+  font-size: 36px;
+}
+
+.font-48{
+  font-size: 48px;
+}
+
+.font-65{
+    font-size: 65px;
+}
+
+.font-QS{
+    font-family: "Quicksand";
+}
+
+.font-QSB{
+  font-family: "QuicksandBold";
+}
+
+.font-TT{
+    font-family: "TT Norms";
+}
+
+.font-TTB{
+  font-family: "TT Norms Bold";
+}
+
+.color-F91B{
+  color: #F9A01B;
+}
+
+.color-7DFE{
+  color: #7D75FE;
+}
+
+.bg-FFF{
+  background-color: #FFF;
+}
+
+.bg-OB{
+  background-color: #0B0B0B;
+}
+
+.bg-7DFE{
+  background-color: #7D75FE;;
+}
+
+.bg-F91B{
+  background-color: #F9A01B;
+}
+
+
+.bg-9390{
+  background-color: #939090;
+}
+
+.border-radios-px{
+  border: 5px solid #7D75FE;
+  border-radius: 50px;
+}
+
+.border-radius-25{
+  border-radius: 25px;
+}
+
+.height-500{
+  height: 500px;
+}
+
+.height-50p{
+  height: 50px;
+}
+
+.height-unset{
+  height: unset !important;
+}
+
+.row{
+  margin-left: unset;
+  margin-right: unset;
+}
+
+.lh-3{
+  line-height: 3;
+}
+
+.hr_bc{
+  border: 1px solid #c9c9c9;
+}
+
+.display-none{
+  display: none;
+}
+
+.div-center{
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.bottom-center{
+  top: 25%;
+  left: 50%;
+  transform: translate(-50%, -25%);
+}
+
+.w-50p{
+  width: 50px;
+  max-width: 50px;
+}
+
+.w-300p{
+  width: 300px;
+  max-width: 300px;
+}
+
+.w-80{
+  width: 80%;
+}
+
+.header{
+    margin-top: 20px;
+    width: 100%;
+    left: 0;
+}
+
+.logo{
+    text-align: left;
+    z-index: 1;
+}
+
+.logo-area{
+  text-align: left;
+}
+
+.banner-box{
+  max-width: 100%;
+  height: 100vh;
+}
+
+.banner-box img{
+  width: 100%;
+}
+
+.img-fluid {
+  width: 100%;
+}
+
+.bg-video-area{
+  position: fixed;
+  height: 100%;
+  width: 100%;
+  z-index: -1;
+}
+
+.rotate-5{
+  transform: translate(-50%, -50%) rotate(5deg);
+}
+
+/*Material*/
+
+.MuiPaginationItem-root {
+  font-size: 1.5rem !important;
+}
+
+#bg-video{
+    object-fit: fill;
+    height: 100vh;
+    width: 100vw;
+}
+
+.video-box{
+    width: 80%;
+    height: 80%;
+    margin-top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.product-preview{
+    top: 50%;
+    right: 0;
+    /* margin-top: 5%; */
+    width: 70%;
+    z-index: 10;
+    transform: translate(0, -50%);
+}
+
+.product-title{
+  top: 0;
+  width: 60%;
+  z-index: 1;
+  margin-top: 15%;
+  margin-left: 5%;
+}
+
+.product-preview img{
+    width: 60%;
+    float: right;
+}
+
+.Title{
+  margin-top:30%;
+  margin-bottom: 10%;
+}
+
+.product-button{
+    z-index: 10;
+    width: 250px;
+    height: 50px;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    text-align: center;
+    line-height: 50px;
+}
+
+.sec-div{
+  width: 80%;
+  margin-left: 10%;
+  margin-top: 5%;
+}
+
+.desciprtion-area{
+  margin-top: 10%;
+}
+
+.lock-menu-place{
+    position: relative;
+}
+
+.box-menu-bar{
+    position: absolute;
+    width: 100%;
+    margin-top: 25%;
+}
+
+.square{
+  width: 230px;
+  height: 230px;
+  text-align: center;
+}
+
+.box-menu-text{
+  color: #FFF;
+  margin-top: 39%;
+  width: 100%;
+}
+
+.menu-text{
+  vertical-align: middle;
+}
+
+.draw{
+  width: 250px;
+  height: 250px;
+  /* margin-top: 14%;
+  margin-left: 8%; */
+}
+
+.draw img{
+  width: 100%;
+  position: absolute;
+  top: 0;
+}
+
+.col-area{
+  width: 250px;
+  height: 250px;
+  max-width: 250px;
+}
+
+.col-icon img{
+  width: 80%;
+}
+
+.col-img, .col-icon, .col-img img{
+  width: 100%;
+  height: 100%;
+}
+
+.like-size{
+  width: 20px
+}
+
+.like-size img{
+  width: 100%;
+}
+
+.marquee{
+    min-width: max-content;
+}
+
+.marquee-item-box{
+    width: 250px;
+    height: 250px;
+    border-color: red;
+}
+
+.marquee-item-box img{
+    width: 100%;
+    height: 100%;
+    border-color: red;
+    padding-left: 10px;
+
+}
+
+.marquee-item-box img:hover{
+    cursor: pointer;
+}
+
+.cart_product_preview img{
+  width: 100%;
+}
+
+.preview-sm-pic img{
+  width:100%;
+}
+
+.nft_art{
+  width: 40%;
+}
+
+.nft_art img{
+  width: 100%;
+}
+
+.hoodie_black_icon{
+  position: absolute;
+  width: 30%;
+  top: 35%;
+  left: 36%;
+}
+
+.circle{
+  display: flex;
+  width: 20px;
+  border-radius: 50%;
+  height: 20px;
+}
+
+.hidden{
+  visibility: hidden;
+}
+
+.CloudDancer{
+  background-color: #F0EEE9;
+}
+
+.HighRiskRed{
+  background-color: #C71F2D;
+}
+
+.JetBlack{
+  background-color: #2D2C2F;
+}
+
+.Latte{
+  background-color: #C5A582;
+}
+
+.MistyRose{
+  background-color: #CAA39A;
+}
+
+.Sage{
+  background-color: #8C8A7E;
+}
+
+.TawnyPort{
+  background-color: #5C2C35;
+}
+
+.bottom{
+  bottom: 0
+}
+.bottom-area{
+  height: 100px;
+}
+
+.bottom-area img{
+  height: 100%;
+}
+
+
+
+.bm-burger-button {
+    position: fixed;
+    width: 36px;
+    height: 30px;
+    right: 36px;
+    top: 36px;
+  }
+  
+  /* Color/shape of burger icon bars */
+  .bm-burger-bars {
+    background: white;
+  }
+  
+  /* Color/shape of burger icon bars on hover*/
+  .bm-burger-bars-hover {
+    background: white;
+  }
+  
+  /* Position and sizing of clickable cross button */
+  .bm-cross-button {
+    height: 24px;
+    width: 24px;
+    display: none
+  }
+  
+  /* Color/shape of close button cross */
+  .bm-cross {
+    background: #bdc3c7;
+  }
+  
+  /*
+  Sidebar wrapper styles
+  Note: Beware of modifying this element as it can break the animations - you should not need to touch it in most cases
+  */
+  .bm-menu-wrap {
+    /* position: fixed; */
+    height: 100%;
+  }
+  
+  /* General sidebar styles */
+  .bm-menu {
+    /* background: white; */
+    padding: 4em 1.5em 0;
+    font-size: 1.15em;
+  }
+  
+  /* Morph shape necessary with bubble or elastic */
+  .bm-morph-shape {
+    fill: #373a47;
+  }
+  
+  /* Wrapper for item list */
+  .bm-item-list {
+    color: #b8b7ad;
+    padding: 0.8em;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  /* Styling of overlay */
+  .bm-overlay {
+    background: rgba(0, 0, 0, 0.3);
+    left: 0;
+    top: 0;
+  }
+  
+  /* ============= additional ================ */
+  .menu-item {
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    margin-bottom: 10px;
+    text-align: right;
+    text-decoration: none;
+    transition: color 0.2s;
+  }
+  
+  .menu-item:hover {
+    color: #50a3a2;
+  }
+  
+  .memu-title {
+    color: black;
+    font-size: 40px;
+    margin: 10px 0 50px 0;
+    text-align: center;
+    border-bottom: 3px solid #808080;
+    /* text-decoration: underline;
+    text-underline-offset: 0.5em; */
+  }
+  
+  .logout {
+    margin-top: auto;
+    border-top: 3px solid #808080;
+    padding-top: 15px;
+  }
+
+  /* For Ranking Card */
+
+  .react-multi-carousel-item{
+    padding: 10px;
+  }
+
+  .carousel-left-btn{
+    position: relative;
+    /* left: -40vw; */
+    left: -410%;
+  }
+
+  .carousel-right-btn{
+    position: relative;
+    left: 410%;
+  }
+
+  .card-img-overlay {
+    top: unset;
+  }
+
+  .card{
+    background: none;
+    border-width: 10px;
+    border-color: white;
+    border-radius: 30px;
+  }
+
+  .carousel-btn:hover{
+    cursor: pointer;
+  }
+
+  .Our_Hoodie_first_item {
+    top: 30%;
+  }
+
+  .Our_Hoodie_first_item span {
+    left: 13%;
+  }
+
+  .Our_Hoodie_second_item {
+    top: 44%;
+  }
+
+  .Our_Hoodie_second_item span {
+    left: 10%;
+  }
+
+  .Our_Hoodie_tirth_item {
+    top: 60%;
+  }
+
+  .Our_Hoodie_tirth_item span {
+    left: 12%;
+  }
+  
+  .Our_Hoodie_fourth_item {
+    top: 45%;
+  }
+
+  .Our_Hoodie_fourth_item span {
+    right: 9%;
+  }
+
+  .Our_Hoodie_fifth_item {
+    top: 66.5%;
+  }
+
+  .Our_Hoodie_fifth_item span {
+    right: 7%;
+  }
+
+  /*For Ranking page */
+
+  .ranking-list tr{
+    background: none;
+  }
+
+  .ranking-list tr td{
+    background: none;
+    border: none;
+    /* width: 6vw; */
+    vertical-align: middle;
+    margin-top: auto;
+    margin-bottom: auto;
+  }
+
+  .ranking-list{
+    text-align: left;
+  }
+
+  .ranking-list-item-rank{
+    margin-right: -12%;
+    color: white;
+  }
+
+  .ranking-list-item-img{
+    margin-right: 5%;
+  }
+
+  .ranking-list-item-id{
+    margin-right: auto;
+    color: white;
+  }
+
+  .ranking-list-item-like{
+    color: white;
+  }
+  /* for centering the gif*/
+  .main-page-hoodie-gif{
+    position: relative!important;
+    width: 40%;
+    left: 28vw;
+    top:13vw;
+  }
+
+  .ranking-page{
+    color: white;
+  }
+
+  @media screen and (max-width: 1400px) {
+    .Our_Hoodie_first_item {
+      top: 30%;
+    }
+  
+    .Our_Hoodie_first_item span {
+      left: 12%;
+    }
+  
+    .Our_Hoodie_second_item {
+      top: 44%;
+    }
+  
+    .Our_Hoodie_second_item span {
+      left: 10%;
+    }
+  
+    .Our_Hoodie_tirth_item {
+      top: 60%;
+    }
+  
+    .Our_Hoodie_tirth_item span {
+      left: 12%;
+    }
+    
+    .Our_Hoodie_fourth_item {
+      top: 45%;
+    }
+  
+    .Our_Hoodie_fourth_item span {
+      right: 7%;
+    }
+  
+    .Our_Hoodie_fifth_item {
+      top: 66.5%;
+    }
+  
+    .Our_Hoodie_fifth_item span {
+      right: 7%;
+    }
+  }
+
+  @media screen and (max-width: 1200px) {
+
+    .carousel-left-btn{
+      /* left: -40vw; */
+      left: -300%
+    }
+  
+    .carousel-right-btn{
+      left: 300%;
+    }
+
+    .Our_Hoodie_first_item {
+      top: 30%;
+    }
+  
+    .Our_Hoodie_first_item span {
+      left: 9%;
+    }
+  
+    .Our_Hoodie_second_item {
+      top: 44%;
+    }
+  
+    .Our_Hoodie_second_item span {
+      left: 7%;
+    }
+  
+    .Our_Hoodie_tirth_item {
+      top: 60%;
+    }
+  
+    .Our_Hoodie_tirth_item span {
+      left: 10%;
+    }
+    
+    .Our_Hoodie_fourth_item {
+      top: 45%;
+    }
+  
+    .Our_Hoodie_fourth_item span {
+      right: 4%;
+    }
+  
+    .Our_Hoodie_fifth_item {
+      top: 66.5%;
+    }
+  
+    .Our_Hoodie_fifth_item span {
+      right: 4%;
+    }
+  }
+
+  @media screen and (min-width: 1024px) {
+    .card-title{
+      font-size: 250%;
+      line-height: 15%;
+    }
+  
+    .card-text{
+      font-size: 150%;
+    }
+  }
+
+  @media screen and (max-width: 1024px) {
+
+    .collection_topic {
+      width: 75% !important;
+    }
+
+    .rarebbit_intro{
+      top: 45% !important
+    }
+
+    .rarebbit_intro_content{
+      padding: unset !important;
+      margin-top: unset !important;
+      margin-bottom: unset !important;
+      margin-left: 5% !important;
+    }
+
+    .Our_Hoodie_first_item {
+      top: 30%;
+    }
+  
+    .Our_Hoodie_first_item span {
+      left: 8%;
+    }
+  
+    .Our_Hoodie_second_item {
+      top: 44%;
+    }
+  
+    .Our_Hoodie_second_item span {
+      left: 6%;
+    }
+  
+    .Our_Hoodie_tirth_item {
+      top: 60%;
+    }
+  
+    .Our_Hoodie_tirth_item span {
+      left: 10%;
+    }
+    
+    .Our_Hoodie_fourth_item {
+      top: 45%;
+    }
+  
+    .Our_Hoodie_fourth_item span {
+      right: 4%;
+    }
+  
+    .Our_Hoodie_fifth_item {
+      top: 66.5%;
+    }
+  
+    .Our_Hoodie_fifth_item span {
+      right: 2%;
+    }
+
+    .BCI_Content{
+      padding-top: unset !important;
+      margin-top: unset !important;
+    }
+
+  }
+
+  @media screen and (max-width: 1000px) {
+    .Our_Hoodie_first_item {
+      top: 25%;
+    }
+  
+    .Our_Hoodie_first_item span {
+      left: 4%;
+    }
+  
+    .Our_Hoodie_second_item {
+      top: 43%;
+    }
+  
+    .Our_Hoodie_second_item span {
+      left: 2%;
+    }
+  
+    .Our_Hoodie_tirth_item {
+      top: 56%;
+    }
+  
+    .Our_Hoodie_tirth_item span {
+      left: 8%;
+    }
+    
+    .Our_Hoodie_fourth_item {
+      top: 42%;
+    }
+  
+    .Our_Hoodie_fourth_item span {
+      right: -3%;
+    }
+  
+    .Our_Hoodie_fifth_item {
+      top: 65.5%;
+    }
+  
+    .Our_Hoodie_fifth_item span {
+      right: -2%;
+    }
+  }
+
+  @media screen and (max-width: 991px) {
+
+    .rarebbit_intro{
+      top: 35% !important
+    }
+
+    .rarebbit_intro_content{
+      padding: unset !important;
+      margin-top: unset !important;
+      margin-bottom: unset !important;
+      margin-left: 5% !important;
+    }
+
+    .rarebbit_intro_content_topic{
+      font-size: 32px !important;
+    }
+
+    .rarebbit_intro_content_content{
+      font-size: 16px !important;
+    }
+
+    .register_button{
+      width: 75% !important;
+    }
+
+    .Our_Hoodie_first_item {
+      top: 29%;
+      font-size: 12px;
+    }
+  
+    .Our_Hoodie_first_item span {
+      left: 8%;
+    }
+  
+    .Our_Hoodie_second_item {
+      top: 44%;
+      font-size: 12px;
+    }
+  
+    .Our_Hoodie_second_item span {
+      left: 5%;
+    }
+  
+    .Our_Hoodie_tirth_item {
+      top: 60%;
+      font-size: 12px;
+    }
+  
+    .Our_Hoodie_tirth_item span {
+      left: 10%;
+    }
+    
+    .Our_Hoodie_fourth_item {
+      top: 45%;
+      font-size: 12px;
+    }
+  
+    .Our_Hoodie_fourth_item span {
+      right: 3%;
+    }
+  
+    .Our_Hoodie_fifth_item {
+      top: 66.5%;
+      font-size: 12px;
+    }
+  
+    .Our_Hoodie_fifth_item span {
+      right: 2%;
+    }
+
+    .Intro_Area{
+      margin-left: unset !important;
+    }
+
+    .Area_topic{
+      font-size: 32px !important;
+    }
+
+    .Area_content{
+      font-size: 24px !important;
+    }
+
+    .Area_content_content{
+      font-size: 18px !important;
+    }
+
+    .BCI_Content{
+      padding-top: unset !important;
+      margin-top: unset !important;
+    }
+
+  }
+
+  @media screen and (max-width: 912px) {
+    body {
+      min-width: unset;
+    }
+
+    .carousel-left-btn{
+      left: -40vw;
+    }
+  
+    .carousel-right-btn{
+      left: 40vw;
+    }
+
+    .mobile_tag_1{
+      top: 60%;
+      left: -25%;
+    }
+
+    .mobile_tag_1 div{
+      font-size: 28px;
+    }
+
+    .mobile_tag_2{
+      top: 0%;
+      left: -58%;
+    }
+
+    .mobile_tag_2 div{
+      font-size: 28px;
+    }
+
+    .mobile_tag_3{
+      top: 0%;
+      left: 59%;
+    }
+
+    .mobile_tag_3 div{
+      font-size: 28px;
+    }
+
+    .mobile_tag_4{
+      top: -60%;
+      left: 25%;
+    }
+
+    .mobile_tag_4 div{
+      font-size: 28px;
+    }
+  }
+
+  @media screen and (max-width: 850px) {
+
+    .Our_Hoodie_first_item {
+      top: 17%;
+    }
+  
+    .Our_Hoodie_first_item span {
+      left: 8%;
+    }
+  
+    .Our_Hoodie_second_item {
+      top: 20%;
+    }
+  
+    .Our_Hoodie_second_item span {
+      left: 74%;
+    }
+  
+    .Our_Hoodie_tirth_item {
+      top: 72%;
+    }
+  
+    .Our_Hoodie_tirth_item span {
+      left: -3%;
+    }
+    
+    .Our_Hoodie_fourth_item {
+      top: 52%;
+    }
+  
+    .Our_Hoodie_fourth_item span {
+      right: 0%;
+    }
+  
+    .Our_Hoodie_fifth_item {
+      top: 80.5%;
+    }
+  
+    .Our_Hoodie_fifth_item span {
+      right: 2%;
+    }
+
+
+  }
+
+  @media screen and (max-width: 768px) {
+    .card-title{
+      font-size: 150%;
+      line-height: 15%;
+    }
+  
+    .card-text{
+      font-size: 75%;
+    }
+
+    .Our_Hoodie_first_item {
+      top: 14%;
+    }
+  
+    .Our_Hoodie_first_item span {
+      left: 7%;
+    }
+  
+    .Our_Hoodie_second_item {
+      top: 20%;
+    }
+  
+    .Our_Hoodie_second_item span {
+      left: 73%;
+    }
+  
+    .Our_Hoodie_tirth_item {
+      top: 72%;
+    }
+  
+    .Our_Hoodie_tirth_item span {
+      left: -4%;
+    }
+    
+    .Our_Hoodie_fourth_item {
+      top: 40%;
+    }
+  
+    .Our_Hoodie_fourth_item span {
+      right: -6%;
+    }
+  
+    .Our_Hoodie_fifth_item {
+      top: 81%;
+    }
+  
+    .Our_Hoodie_fifth_item span {
+      right: 5%;
+    }
+     
+  }
+
+  @media screen and (min-width: 768px) {
+    .card-title{
+      font-size: 200%;
+      line-height: 15%;
+    }
+  
+    .card-text{
+      font-size: 100%;
+    }
+  }
+
+  @media screen and (max-width: 450px) {
+  
+    .mobile_tag_1{
+      top: 70%;
+      left: -22%;
+    }
+    
+    .mobile_tag_1 div{
+      font-size: 24px;
+    }
+
+    .mobile_tag_2{
+      left: -65%;
+      top: 0%
+    }
+
+    .mobile_tag_2 div{
+      font-size: 24px;
+    }
+
+    .mobile_tag_3{
+      top: 0%;
+      left: 67%;
+    }
+
+    .mobile_tag_3 div{
+      font-size: 24px;
+    }
+
+    .mobile_tag_4{
+      top: -67%;
+      left: 25%;
+    }
+
+    .mobile_tag_4 div{
+      font-size: 24px;
+    }
+
+  }
+  
+
+  @media screen and ( max-width: 390px ) {
+
+    #bg-video {
+      width: unset;
+    }
+
+    /* .bg-video-area{
+      position: fixed;
+      background-image: url(../static/media/BG.jpg);
+      height: 100vh;
+      width: 100%;
+      z-index: -1;
+    } */
+
+    .product-button{
+      width: unset;
+    }
+
+    .mobile_box_pt_0{
+      padding-top: unset !important;
+    }
+
+    .mobile_box_pb_0{
+      padding-bottom: unset !important;
+    }
+
+    .mobile_box_ps_0{
+      padding-left: unset !important;
+    }
+
+    .mobile_box_pe_0{
+      padding-right: unset !important;
+    }
+
+    .mobile_box_mt_0{
+      margin-top: unset !important;
+    }
+
+    .mobile_box_mb_0{
+      margin-bottom: unset !important;
+    }
+
+    .mobile_box_ms_0{
+      margin-left: unset !important;
+    }
+
+    .mobile_box_me_0{
+      margin-right: unset !important;
+    }
+
+    .mobile_tag_1{
+      top: 55%;
+      left: -20%;
+    }
+    
+    .mobile_tag_1 div{
+      font-size: 14px;
+    }
+
+    .mobile_tag_2{
+      left: -70%;
+    }
+
+    .mobile_tag_2 div{
+      font-size: 14px;
+    }
+
+    .mobile_tag_3{
+      top: -30%;
+      left: 65%;
+    }
+
+    .mobile_tag_3 div{
+      font-size: 14px;
+    }
+
+    .mobile_tag_4{
+      top: -85%;
+      left: 14%;
+    }
+
+    .mobile_tag_4 div{
+      font-size: 14px;
+    }
+
+    .mobile_font{
+      font-size: 14px !important;
+    }
+
+    .mobile_box_title{
+      font-size: 24px !important;
+    }
+
+    .mobile_box_content{
+      font-size: 8px !important;
+    }
+
+    .mobile_box_menu_text {
+      font-size: 4px !important;
+    }
+
+    .mobile_box_menu_text_first {
+      margin-top: 10% !important;
+      margin-left: 19% !important;
+    }
+
+    .mobile_box_menu_text_second {
+      margin-top: -25%;
+      margin-left: 4%;
+    }
+
+    .mobile_box_menu_text_tirth {
+      margin-top: 12%;
+      margin-left: -11%;
+    }
+
+    .mobile_box_menu_text_fourth {
+      margin-top: -25%;
+      margin-left: -22%;
+    }
+
+    .carousel-left-btn{
+      left: -157px !important;
+    }
+
+    .carousel-right-btn{
+      left: 157px !important;
+    }
+
+    .Our_Hoodie_first_item {
+      top: 8%;
+    }
+  
+    .Our_Hoodie_first_item span {
+      left: 6%;
+    }
+  
+    .Our_Hoodie_second_item {
+      top: 14%;
+    }
+  
+    .Our_Hoodie_second_item span {
+      left: 73%;
+    }
+  
+    .Our_Hoodie_tirth_item {
+      top: 72%;
+    }
+  
+    .Our_Hoodie_tirth_item span {
+      left: -2%;
+    }
+    
+    .Our_Hoodie_fourth_item {
+      top: 53%;
+    }
+  
+    .Our_Hoodie_fourth_item span {
+      right: 0%;
+    }
+  
+    .Our_Hoodie_fifth_item {
+      top: 82%;
+    }
+  
+    .Our_Hoodie_fifth_item span {
+      right: 6%;
+    }
+
+    .fs-7{
+      font-size: 14px;
+    }
+
+    .fs-8{
+      font-size: 12px;
+    }
+
+    .fs-9{
+      font-size: 10px;
+    }
+
+    .fs-10{
+      font-size: 8px;
+    }
+
+    .card{
+      background: none;
+      border-width: 5px;
+      border-color: white;
+      border-radius: 30px;
+    }
+
+    
+
+    .bm-burger-button {
+      position: fixed;
+      width: 30px;
+      height: 30px;
+      right: 20px;
+      top: 25px;
+    }
+    
+    /* Color/shape of burger icon bars */
+    .bm-burger-bars {
+      background: white;
+    }
+    
+    /* Color/shape of burger icon bars on hover*/
+    .bm-burger-bars-hover {
+      background: white;
+    }
+    
+    /* Position and sizing of clickable cross button */
+    .bm-cross-button {
+      height: 24px;
+      width: 24px;
+      display: none
+    }
+    
+    /* Color/shape of close button cross */
+    .bm-cross {
+      background: #bdc3c7;
+    }
+    
+    /*
+    Sidebar wrapper styles
+    Note: Beware of modifying this element as it can break the animations - you should not need to touch it in most cases
+    */
+    .bm-menu-wrap {
+      /* position: fixed; */
+      top: 50px;
+      height: 100%;
+    }
+    
+    /* General sidebar styles */
+    .bm-menu {
+      /* background: white; */
+      padding: 0 0.5em 0;
+      font-size: 1.15em;
+    }
+    
+    /* Morph shape necessary with bubble or elastic */
+    .bm-morph-shape {
+      fill: #373a47;
+    }
+    
+    /* Wrapper for item list */
+    .bm-item-list {
+      color: #b8b7ad;
+      padding: 0.8em;
+      display: flex;
+      flex-direction: column;
+    }
+    
+    /* Styling of overlay */
+    .bm-overlay {
+      background: rgba(0, 0, 0, 0.7) !important;
+      left: 0;
+      top: 0;
+    }
+    
+    /* ============= additional ================ */
+    .menu-item {
+      font-size: 20px;
+      color: rgb(255, 255, 255);
+      margin-bottom: unset;
+      text-align: right;
+      text-decoration: none;
+      transition: color 0.2s;
+    }
+    
+    .menu-item:hover {
+      color: #50a3a2;
+    }
+    
+    .memu-title {
+      color: black;
+      font-size: 40px;
+      margin: 10px 0 50px 0;
+      text-align: center;
+      border-bottom: 3px solid #808080;
+      /* text-decoration: underline;
+      text-underline-offset: 0.5em; */
+    }
+    
+    .logout {
+      margin-top: auto;
+      border-top: 3px solid #808080;
+      padding-top: 15px;
+    }
+  }
